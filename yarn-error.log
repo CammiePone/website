@@ -1,0 +1,53 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Cammie\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add svelte-panorama-component
+
+PATH: 
+  C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Microsoft\jdk-17.0.2.8-hotspot\bin;C:\Python39\Scripts\;C:\Python39\;C:\Program Files\Oculus\Support\oculus-runtime;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Cammie\AppData\Local\Microsoft\WindowsApps;;C:\Users\Cammie\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Cammie\.dotnet\tools;C:\Users\Cammie\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\Cammie\.dotnet\tools;C:\Users\Cammie\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.8.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Cammie\Desktop\Development\Web Dev\Cammies Corner Website\node_modules\@esbuild\win32-x64\esbuild.exe'
+
+npm manifest: 
+  {
+  	"name": "cammies-corner-website",
+  	"version": "0.0.1",
+  	"private": true,
+  	"scripts": {
+  		"dev": "vite dev",
+  		"build": "vite build",
+  		"preview": "vite preview",
+  		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+  		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+  	},
+  	"devDependencies": {
+  		"@sveltejs/adapter-auto": "^2.0.0",
+  		"@sveltejs/kit": "^1.5.0",
+  		"autoprefixer": "^10.4.14",
+  		"postcss": "^8.4.23",
+  		"svelte": "^3.54.0",
+  		"svelte-check": "^3.0.1",
+  		"tailwindcss": "^3.3.2",
+  		"tslib": "^2.4.1",
+  		"typescript": "^5.0.0",
+  		"vite": "^4.3.0"
+  	},
+  	"type": "module",
+  	"dependencies": {
+  		"@rodneylab/svelte-social-icons": "^0.0.25"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
