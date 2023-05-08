@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/stores';
-	const classNamesAll = "p-4 mx-0 flex justify-center items-center text-center hover:underline font-bold";
+	const classNamesAll = "p-4 mx-0 flex justify-center items-center text-center hover:underline focus:underline font-bold";
 	const classNamesActive = classNamesAll + " underline";
 	interface NavItems {
 		[name: string]: string;

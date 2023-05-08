@@ -27,17 +27,17 @@
     "@cfcs/core" "^0.0.24"
     "@egjs/component" "^3.0.1"
 
-"@egjs/svelte-view360@^4.0.0-beta.5":
-  version "4.0.0-beta.5"
-  resolved "https://registry.yarnpkg.com/@egjs/svelte-view360/-/svelte-view360-4.0.0-beta.5.tgz#9c9ddd87df6507ed8166556423aa01c7aa7f35de"
-  integrity sha512-C2q06WHtgplxK8J7Sx9H3tCMgn5mBGdW2A+REvURiJ8YJ2pa2c3CQE0PP3Ff/gW5d1Ysz0+560VXxsP/TgLGtw==
+"@egjs/svelte-view360@4.0.0-beta.6":
+  version "4.0.0-beta.6"
+  resolved "https://registry.yarnpkg.com/@egjs/svelte-view360/-/svelte-view360-4.0.0-beta.6.tgz#cf4eeedaf31fe73e12e6734aa46ae548d6bdb838"
+  integrity sha512-YGNOnE5ZgXiaQneeI1r3g/VKNCWRjBavLJByDRg6xY9ORdqohY5zFB2nLWAZEKboTka/xody22xSYemNUVgT9w==
   dependencies:
-    "@egjs/view360" "4.0.0-beta.5"
+    "@egjs/view360" "4.0.0-beta.6"
 
-"@egjs/view360@4.0.0-beta.5":
-  version "4.0.0-beta.5"
-  resolved "https://registry.yarnpkg.com/@egjs/view360/-/view360-4.0.0-beta.5.tgz#dd3b8ead8792a6525c2b4a4c05fc6af6ccceea8f"
-  integrity sha512-wA/jC4XNrH4dy1CGKWFtuzjo+wi4GsK1K11UhWGPhdo8auNu+IGItKPG/9BrKNg8zvWR24DaCmjjiGFrxH7mqQ==
+"@egjs/view360@4.0.0-beta.6":
+  version "4.0.0-beta.6"
+  resolved "https://registry.yarnpkg.com/@egjs/view360/-/view360-4.0.0-beta.6.tgz#178871028b36bb8ad783a9807967ef0f40dffcbd"
+  integrity sha512-WMN0f4HCP3Hr9DzREGuQwgpDb/lWxucSUdiKLwybOb3IlkzMSKlB5B9i/aEIJsO5ar29vxTkwNi1eVxlLnINCw==
   dependencies:
     "@egjs/component" "^3.0.2"
     "@egjs/imready" "^1.3.0"
