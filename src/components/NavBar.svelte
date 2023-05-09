@@ -11,7 +11,7 @@
 
 <nav class="h-full">
 	<!-- let keyboard users skip navigation -->
-	<a id="skip-nav" class="absolute -translate-x-full focus:translate-x-0 p-4 font-bold transition-transform duration-300 underline" href="#main-content">SKIP TO CONTENT</a>
+	<a id="skip-nav" class="absolute -translate-x-full focus:translate-x-0 p-4 bg-lighttext text-secondary rounded-br-2xl font-bold transition-transform duration-300 underline" href="#main-content">SKIP TO CONTENT</a>
 
 	<ul class="h-full flex justify-left items-center">
 		{#each Object.entries(navItems) as [name, target]}

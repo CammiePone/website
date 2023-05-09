@@ -12,11 +12,11 @@
 		blog: '/blog'
 	};
 </script>
-<div class="flex flex-col min-h-screen">
-	<header class="header-bg h-16 top-0 z-50">
+<div class="flex flex-col min-h-screen bg-main text-lighttext">
+	<header class="bg-secondary h-16 top-0 z-50">
 		<NavBar {navItems} />
 	</header>
-	<main id="main-content" class="scroll-smooth pb-6">
+	<main id="main-content" class="scroll-smooth">
 		<slot />
 	</main>
 	<footer class="partial-bg mt-auto w-full h-18 bottom-0 flex flex-col justify-center text-center">
