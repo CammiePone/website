@@ -8,6 +8,29 @@
 		--secondary-color: #2e3157;
 		--accent-color: #ffef91;
 		--light-text-color: #c5cae1;
+		--dark-text-color: #1f2141;
+	}
+
+	.cycling-images {
+		height: 500px;
+		padding: 1.5rem 0;
+		background-color: #2e2e2e;
+		filter: brightness(40%);
+	}
+
+	.left-image {
+		transform-origin: right;
+		transform: perspective(1000px) rotateY(-25deg) translateX(-2rem);
+	}
+
+	.right-image {
+		transform-origin: left;
+		transform: perspective(1000px) rotateY(25deg) translateX(2rem);
+	}
+
+	.hero-text {
+		transform: translate(-50%, -120%);
+		text-shadow: 0.25rem 0.25rem var(--dark-text-color);
 	}
 
 	html {
