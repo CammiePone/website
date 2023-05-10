@@ -16,13 +16,13 @@
 </script>
 
 <MetaTags
-	title="cammiescorner.dev"
+	title="Cammie's Corner"
 	titleTemplate="%s"
 	description="Cammie Pet's blog and portfolio. Commissions. Minecraft mods. Game development."
 	canonical="https://cammiescorner.dev"
 	openGraph={{
 		url: "https://cammiescorner.dev",
-		title: "Cammie's Corner",
+		title: "cammiescorner.dev",
 		description: "Indie Game Designer & Developer",
 		images: [
 			{
