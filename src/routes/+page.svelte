@@ -15,7 +15,7 @@
     <title>Home | Cammie's Corner</title>
 </svelte:head>
 
-<div id="hero-images" class="relative overflow-x-hidden">
+<div id="hero-images" class="relative overflow-x-hidden min-h-[500px]">
 	<div class="pt-6 pb-6 bg-slate-900 flex flex-row place-content-center min-w-[150vw] -translate-x-[25vw]">
 		{#if browser}
 			<Carousel
