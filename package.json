@@ -27,6 +27,7 @@
 	"dependencies": {
 		"@egjs/svelte-view360": "4.0.0-beta.6",
 		"@rodneylab/svelte-social-icons": "^0.0.25",
+		"@sveltejs/adapter-cloudflare": "^2.2.2",
 		"svelte-panolens": "^0.2.1",
 		"svelte-panorama-component": "^1.0.2"
 	}

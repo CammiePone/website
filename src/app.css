@@ -17,12 +17,10 @@
 
 	.left-image {
 		transform-origin: right;
-		transform: perspective(1000px) rotateY(-25deg) translateX(-2rem);
 	}
 
 	.right-image {
 		transform-origin: left;
-		transform: perspective(1000px) rotateY(25deg) translateX(2rem);
 	}
 
 	.hero-text {
