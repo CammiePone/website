@@ -25,7 +25,7 @@
 
 	.hero-text {
 		transform: translate(-50%, -50%);
-		text-shadow: 0.25rem 0.25rem var(--dark-text-color);
+		text-shadow: 0.125rem 0.125rem var(--dark-text-color);
 	}
 
 	.under-construction {
