@@ -51,7 +51,7 @@
 	</div>
 	<div class="hero-text text-center absolute top-1/2 left-1/2 z-10 w-full">
 		<h1 class="md:text-5xl text-4xl">Hello, I'm Cammie!</h1>
-		<p class="text-sm[text-shadow:_none]">Fae / Faer</p>
+		<p class="text-sm">Fae / Faer</p>
 		<p class="md:text-2xl text-lg mt-4">Indie Game Designer & Developer</p>
 	</div>
 </div>
