@@ -16,7 +16,7 @@
 </svelte:head>
 
 <div id="hero-images" class="relative overflow-x-hidden h-1/2">
-	<div class="py-[2.5vh] bg-slate-900 flex flex-row place-content-center md:min-w-[150vw] md:-translate-x-[25vw] min-w-[250vw] -translate-x-[75vw]">
+	<div class="py-[2.5vh] bg-slate-900 flex flex-row place-content-center md:min-w-[150vw] md:-translate-x-[25vw] min-w-[300vw] -translate-x-[100vw]">
 		{#if browser}
 			<Carousel
 				particlesToShow={3}
@@ -25,7 +25,6 @@
 				arrows={false}
 				swiping={false}
 				dots={false}
-				pauseOnFocus={true}
 				let:currentPageIndex
 			>
 				{#each carouselImgs as src, index(src)}
