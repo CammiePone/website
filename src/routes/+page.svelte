@@ -16,7 +16,7 @@
 </svelte:head>
 
 <div id="hero-images" class="relative overflow-x-hidden h-1/2">
-	<div class="py-[2.5vh] bg-slate-900 flex flex-row place-content-center min-w-[150vw] -translate-x-[25vw]">
+	<div class="py-[2.5vh] bg-slate-900 flex flex-row place-content-center md:min-w-[150vw] md:-translate-x-[25vw] min-w-[250vw] -translate-x-[75vw]">
 		{#if browser}
 			<Carousel
 				particlesToShow={3}
@@ -50,9 +50,9 @@
 		<img src={carouselImgs[(index + 1) % carouselImgs.length]} alt="" class="right-image brightness-50 rounded-2xl" height="500" width="888"> -->
 	</div>
 	<div class="hero-text text-center absolute top-1/2 left-1/2 z-10 w-full">
-		<h1 class="md:text-5xl text-3xl">Hello, I'm Cammie!</h1>
-		<p class="md:text-sm text-xs [text-shadow:_none]">Fae / Faer</p>
-		<p class="md:text-2xl mt-4">Indie Game Designer & Developer</p>
+		<h1 class="md:text-5xl text-4xl">Hello, I'm Cammie!</h1>
+		<p class="text-sm [text-shadow:_none]">Fae / Faer</p>
+		<p class="md:text-2xl text-lg mt-4">Indie Game Designer & Developer</p>
 	</div>
 </div>
 
