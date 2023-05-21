@@ -32,11 +32,6 @@
 		background: repeating-linear-gradient(45deg, var(--secondary-color) 2rem, var(--secondary-color) 4rem, var(--accent-color) 4rem, var(--accent-color) 6rem);
 	}
 
-	br {
-		display: block;
- 		margin: 0.5rem 0;
-	}
-
 	.social-item-anchor {
 		border-radius: 2rem;
 		transition: border-radius 200ms ease-in-out;

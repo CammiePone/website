@@ -59,26 +59,29 @@
 <div class="text-darktext md:text-justify text-xl">
 	<div class="bg-lighttext mr-[10vw] my-[4vh] py-4 px-6 rounded-e-3xl flex md:flex-row flex-col place-content-start items-center">
 		<img src="/wizard_hat.webp" alt="" height="128" width="128" class="md:mx-6 md:my-0 mb-6">
-		<p class="max-w-4xl m-auto">
-			I've been working as an indie game designer and developer since September 2017. I got my start by learning Java and making mods for <em>Minecraft: Java Edition</em>.
-			<br>
-			Since then, I've branched out to making my own demos in different game engines, including Godot, Unity3D, and Unreal Engine 4. I've picked up several other programming languages, including C#, JavaScript, TypeScript, C++, Python, Rust, and more!
-		</p>
+		
+		<div class="max-w-4xl m-auto">
+			<p>I've been working as an indie game designer and developer since September 2017. I got my start by learning Java and making mods for <em>Minecraft: Java Edition</em>.</p>
+			<div class="my-4" />
+			<p>Since then, I've branched out to making my own demos in different game engines, including Godot, Unity3D, and Unreal Engine 4. I've picked up several other programming languages, including C#, JavaScript, TypeScript, C++, Python, Rust, and more!</p>
+		</div>
 	</div>
 	<div class="bg-lighttext ml-[10vw] my-[4vh] py-4 px-6 rounded-s-3xl flex md:flex-row flex-col place-content-end items-center">
-		<p class="max-w-4xl m-auto">
-			Ultimately, game design is what I'm most passionate about. I picked up programming as a means to bring my designs to life, and my design skills are what I'm most proud of. I've honed them to near-perfection over the years, and I'm more than happy to test them against unfamiliar circumstances!
-			<br>
-			As of March 2023, I've finally taken the huge step to start development on my first full game, alongside my partner!
-		</p>
+		<div class="max-w-4xl m-auto">
+			<p>Ultimately, game design is what I'm most passionate about. I picked up programming as a means to bring my designs to life, and my design skills are what I'm most proud of. I've honed them to near-perfection over the years, and I'm more than happy to test them against unfamiliar circumstances!</p>
+			<div class="my-4" />
+			<p>As of March 2023, I've finally taken the huge step to start development on my first full game, alongside my partner!</p>
+		</div>
+
 		<img src="/end_fable_logo.webp" alt="" height="128" width="128" class="md:mx-6 md:my-0 mt-6">
 	</div>
 	<div class="bg-lighttext mr-[10vw] my-[4vh] py-4 px-6 rounded-e-3xl flex md:flex-row flex-col place-content-start items-center">
 		<img src="/space_helmet.webp" alt="" height="128" width="128" class="md:mx-6 md:my-0 mb-6">
-		<p class="max-w-4xl m-auto">
-			I hold myself to very high standards, and know that my work benefits from that immensely. Any project I set my sights on gets that same quality treatment, regardless of if it's my own creation or one I was hired to work on.
-			<br>
-			Despite my humble beginnings, my ambitions are aimed at the stars and my abilities can carry them there!
-		</p>
+		
+		<div class="max-w-4xl m-auto">
+			<p>I hold myself to very high standards, and know that my work benefits from that immensely. Any project I set my sights on gets that same quality treatment, regardless of if it's my own creation or one I was hired to work on.</p>
+			<div class="my-4" />
+			<p>Despite my humble beginnings, my ambitions are aimed at the stars and my abilities can carry them there!</p>
+		</div>
 	</div>
 </div>
