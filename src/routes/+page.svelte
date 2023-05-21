@@ -56,7 +56,7 @@
 	</div>
 </div>
 
-<div class="text-darktext text-justify text-xl">
+<div class="text-darktext md:text-justify text-xl">
 	<div class="bg-lighttext mr-[10vw] my-[4vh] py-4 px-6 rounded-e-3xl flex md:flex-row flex-col place-content-start items-center">
 		<img src="/wizard_hat.webp" alt="" height="128" width="128" class="md:mx-6 md:my-0 mb-6">
 		<p class="max-w-4xl m-auto">
