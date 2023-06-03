@@ -1,4 +1,3 @@
-
 <script lang="ts">
 	import "../app.ts";
 	import "../app.css";
@@ -9,9 +8,9 @@
 
 	const navItems = {
 		home: '/',
+		blog: '/blog',
 		portfolio: '/portfolio',
-		commissions: '/commissions',
-		blog: '/blog'
+		commissions: '/commissions'
 	};
 </script>
 
