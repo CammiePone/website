@@ -4,7 +4,7 @@
 	let year = date.getFullYear();
 </script>
 
-<div class="bg-lighttext my-[4vh] py-4 px-6 flex md:flex-row flex-col [&:nth-child(odd)]:rounded-e-3xl [&:nth-child(even)]:rounded-s-3xl [&:nth-child(odd)]:mr-[10vw] [&:nth-child(even)]:ml-[10vw] [&:nth-child(even)]:flex-row-reverse">
+<div class="bg-lighttext my-[4vh] py-4 px-6 flex md:flex-row flex-col [&:nth-child(odd)]:rounded-e-3xl [&:nth-child(even)]:rounded-s-3xl [&:nth-child(odd)]:mr-[10vw] [&:nth-child(even)]:ml-[10vw] md:[&:nth-child(even)]:flex-row-reverse [&:nth-child(even)]:flex-col-reverse">
 	<div class="flex flex-col md:[writing-mode:_vertical-lr] md:[text-orientation:_upright] max-h-fit my-4">
 		<!-- replace with date -->
 		<p class="uppercase">{month}</p>
