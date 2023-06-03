@@ -40,7 +40,7 @@
 		<MonthSnip date={date}>
 			{#each sortByDate(data.posts) as { slug, frontmatter, html }}
 				{#if frontmatter.date.getUTCMonth() === date.getUTCMonth()}
-					<BlogCard link="../blog/{slug}" img={frontmatter.img} title={frontmatter.title} html={html} />
+					<BlogCard link="/blog/{slug}" img={frontmatter.img} title={frontmatter.title} html={html} />
 				{/if}
 			{/each}	
 		</MonthSnip>
