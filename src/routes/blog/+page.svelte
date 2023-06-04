@@ -12,7 +12,7 @@
 
 		for(let index = 0; index < posts.length; index++) {
 			const frontmatter = posts[index].frontmatter;
-			const date = new Date(frontmatter.date.getUTCFullYear(), frontmatter.date.getUTCMonth());
+			const date = new Date(frontmatter.date.getUTCFullYear(), frontmatter.date.getUTCMonth(), frontmatter.date.getUTCDate());
 			const isDateInArray = months.some((month) => month.date.getUTCFullYear() === date.getUTCFullYear() && month.date.getUTCMonth() === date.getUTCMonth());
 
 			if(!isDateInArray)
