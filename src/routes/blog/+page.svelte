@@ -6,22 +6,17 @@
 
 	export let data: PageData;
 
-	function sortByDate(posts) {
-		posts.sort((a, b) => b.frontmatter.date.getTime() - a.frontmatter.date.getTime());
-
-		return posts;
-	}
-
 	function getAllMonths(posts) {
+		posts.sort((a, b) => b.frontmatter.date.getTime() - a.frontmatter.date.getTime());
 		let months = [];
 
 		for(let index = 0; index < posts.length; index++) {
 			const frontmatter = posts[index].frontmatter;
 			const date = new Date(frontmatter.date.getUTCFullYear(), frontmatter.date.getUTCMonth());
-			const isDateInArray = months.some((month) => month.getUTCFullYear() === date.getUTCFullYear() && month.getUTCMonth() === date.getUTCMonth());
+			const isDateInArray = months.some((month) => month.date.getUTCFullYear() === date.getUTCFullYear() && month.date.getUTCMonth() === date.getUTCMonth());
 
 			if(!isDateInArray)
-				months.push(date);
+				months.push({ date, posts: posts.filter(post => post.frontmatter.date.getUTCMonth() === date.getUTCMonth() && post.frontmatter.date.getUTCFullYear() === date.getUTCFullYear()) });			
 		}
 
 		return months;
@@ -36,12 +31,10 @@
 	{#if data.posts.length <= 0}
 		<UnderConstruction />
 	{/if}
-	{#each getAllMonths(data.posts) as date}
+	{#each getAllMonths(data.posts) as { date, posts }}
 		<MonthSnip date={date}>
-			{#each sortByDate(data.posts) as { slug, frontmatter, html }}
-				{#if frontmatter.date.getUTCMonth() === date.getUTCMonth()}
-					<BlogCard link="/blog/{slug}" img={frontmatter.img} title={frontmatter.title} html={html} />
-				{/if}
+			{#each posts as { slug, frontmatter, html }}
+				<BlogCard link="/blog/{slug}" img={frontmatter.img} title={frontmatter.title} html={html} />
 			{/each}	
 		</MonthSnip>
 	{/each}
