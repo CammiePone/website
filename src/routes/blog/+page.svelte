@@ -12,11 +12,11 @@
 
 		for(let index = 0; index < posts.length; index++) {
 			const frontmatter = posts[index].frontmatter;
-			const date = new Date(frontmatter.date.getUTCFullYear(), frontmatter.date.getUTCMonth(), frontmatter.date.getUTCDate());
+			const date = new Date(frontmatter.date.getUTCFullYear(), frontmatter.date.getUTCMonth());
 			const isDateInArray = months.some((month) => month.date.getUTCFullYear() === date.getUTCFullYear() && month.date.getUTCMonth() === date.getUTCMonth());
 
 			if(!isDateInArray)
-				months.push({ date, posts: posts.filter(post => post.frontmatter.date.getUTCMonth() === date.getUTCMonth() && post.frontmatter.date.getUTCFullYear() === date.getUTCFullYear()) });			
+				months.push({ date, posts: posts.filter(post => new Date(post.frontmatter.date.getUTCFullYear(), post.frontmatter.date.getUTCMonth()).getTime() === date.getTime()) });			
 		}
 
 		return months;
