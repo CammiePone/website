@@ -25,7 +25,7 @@
 		description: "Indie Game Designer & Developer",
 		images: [
 			{
-				url: "https://cammiescorner.dev/space_helmet.webp",
+				url: "https://cammiescorner.dev/about/space_helmet.webp",
 				width: 512,
 				height: 512,
 				alt: "A voxelised space helmet"
