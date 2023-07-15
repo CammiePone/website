@@ -9,8 +9,7 @@
 	const navItems = {
 		home: '/',
 		blog: '/blog',
-		portfolio: '/portfolio',
-		commissions: '/commissions'
+		portfolio: '/portfolio'
 	};
 </script>
 
