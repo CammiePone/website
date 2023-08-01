@@ -1,11 +1,29 @@
 <script lang="ts">
 	import type { PageData } from './$types';
+	import { MetaTags } from 'svelte-meta-tags';
 
 	export let data: PageData;
 	let day = data.date.getUTCDate() < 10 ? "0" + data.date.getUTCDate() : data.date.getUTCDate();
 	let month = data.date.getUTCMonth() < 10 ? "0" + data.date.getUTCMonth() : data.date.getUTCMonth();
 	let date = day + " / " + month + " / " + data.date.getUTCFullYear();
 </script>
+
+<MetaTags
+	title="Cammie's Corner"
+	titleTemplate="%s"
+	description="Cammie Pet's blog and portfolio. Commissions. Minecraft mods. Game development."
+	canonical="https://cammiescorner.dev"
+	openGraph={{
+		url: "https://cammiescorner.dev",
+		title: `${data.title}`,
+		images: [
+			{
+				url: "https://cammiescorner.dev/" + `${data.img}`,
+			}
+		],
+		site_name: "Cammie's Corner"
+	}}
+/>
 
 <svelte:head>
     <title>{data.title} | Cammie's Corner</title>
