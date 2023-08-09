@@ -15,6 +15,15 @@
 		font-family: 'Helvetica', 'Arial', sans-serif, system-ui;
 	}
 
+	article > ul {
+		list-style: inside square;
+		
+	}
+
+	article > ul > li {
+		margin: 1rem 0 0 1rem;
+	}
+
 	.left-image {
 		transform-origin: right;
 	}

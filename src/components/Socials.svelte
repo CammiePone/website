@@ -15,6 +15,11 @@
 		</a>
 	</li>
 	<li class="m-auto inline-flex">
+		<a href="https://cammiescorner.dev/bluesky" target="_blank" rel="noopener noreferrer" class="inline-flex border-solid border-secondary border-4 bg-accent hover:rounded-xl focus:rounded-xl social-item-anchor">
+			<SocialIcons network="twitter" fgColor="#2e3157" bgColor="#ffef91" width={iconSize} height={iconSize} />
+		</a>
+	</li>
+	<li class="m-auto inline-flex">
 		<a href="https://cammiescorner.dev/discord" target="_blank" rel="noopener noreferrer" class="inline-flex border-solid border-secondary border-4 bg-accent hover:rounded-xl focus:rounded-xl social-item-anchor">
 			<SocialIcons network="discord" fgColor="#2e3157" bgColor="#ffef91" width={iconSize} height={iconSize} />
 		</a>
