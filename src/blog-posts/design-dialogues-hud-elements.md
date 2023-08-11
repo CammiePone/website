@@ -1,6 +1,6 @@
 ---
 img: /images/hud_casting_spell.png
-alt: A LEGO model of the Discovery Space Shuttle deploying a LEGO model of the Hubble Space Telescope.
+alt: A Minecraft player casting a magical spell, with magical circles around the center of the screen.
 title: Design Dialogues - HUD Elements
 date: 2023-08-09
 ---
