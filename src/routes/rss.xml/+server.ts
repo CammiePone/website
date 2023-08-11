@@ -49,15 +49,7 @@ const render = (posts) => `<?xml version="1.0" encoding="UTF-8" ?>
 					<title>${post.frontmatter.title}</title>
 					<link>https://cammiescorner.dev/blog/${slug}</link>
 					<pubDate>${new Date(post.frontmatter.date).toUTCString()}</pubDate>
-					<content:encoded>${getDescription(post.html)}
-						<div style="margin-top: 50px; font-style: italic;">
-							<strong>
-							<a href="https://cammiescorner.dev/blog/${slug}">
-								[Keep reading]
-							</a>
-							</strong>  
-						</div>
-				  	</content:encoded>
+					<description>${getDescription(post.html)}</description>
 				</item>`
 			)
 		.join('')}
