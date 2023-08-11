@@ -1,5 +1,5 @@
 import { getBlogPosts } from "../../util/blog-posts";
-import { JSDOM } from "jsdom";
+import { parse } from "node-html-parser";
 
 function truncateString(str, maxLength) {
 	if(str.length <= maxLength)
@@ -15,8 +15,8 @@ function truncateString(str, maxLength) {
 
 function getDescription(html) {
 	let body = '';
-	const doc = new JSDOM(html, {contentType: 'text/html'});
-	const firstParagraph = doc.window.document.querySelector('p');
+	const doc = parse(html);
+	const firstParagraph = doc.querySelector('p');
 	
 	if(firstParagraph)
 		body = truncateString(firstParagraph.textContent, 160);
@@ -26,7 +26,6 @@ function getDescription(html) {
 
 export async function GET() {
 	const data = getBlogPosts();
-	const posts = Object.entries(data).map(([slug, post]) => { return { slug, frontmatter: post.frontmatter, html: post.html } });
 	const body = render(data);
 	const headers = {
 		'Cache-Control': `max-age=0, s-max-age=${600}`,
