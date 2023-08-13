@@ -31,13 +31,13 @@
 				{#each carouselImgs as src, index(src)}
 					<div class="px-4">
 						{#if index === currentPageIndex}
-							<img {src} alt="" class="left-image brightness-50 rounded-2xl" height="500" width="888">
+							<img {src} alt="" loading="lazy" class="left-image brightness-50 rounded-2xl" height="500" width="888">
 						{:else if index === (currentPageIndex + 1) % carouselImgs.length}
-							<img {src} alt="" class="middle-image brightness-50 rounded-2xl" height="500" width="888">
+							<img {src} alt="" loading="lazy" class="middle-image brightness-50 rounded-2xl" height="500" width="888">
 						{:else if index === (currentPageIndex + 2) % carouselImgs.length}
-							<img {src} alt="" class="right-image brightness-50 rounded-2xl" height="500" width="888">
+							<img {src} alt="" loading="lazy" class="right-image brightness-50 rounded-2xl" height="500" width="888">
 						{:else}
-							<img {src} alt="" class="brightness-50 rounded-2xl" height="500" width="888">
+							<img {src} alt="" loading="lazy" class="brightness-50 rounded-2xl" height="500" width="888">
 						{/if}
 					</div>
 				{/each}
