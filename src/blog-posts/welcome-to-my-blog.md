@@ -3,6 +3,8 @@ img: /carousel/icarus.webp
 alt: A Minecraft player with white, feathered wings is flying low to the water's surface as the sun reflects off of it.
 title: Welcome To My Blog!
 date: 2023-06-03
+tags:
+  - "lifeupdates"
 ---
 Welcome! My name is Cammie Pet, I'm an indie game designer and developer! I'm hoping to post at least once every other week here, but it may be a bit rough getting into that habit at first.
 

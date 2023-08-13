@@ -3,6 +3,8 @@ img: /carousel/wizard_tower.webp
 alt: A tower built in Minecraft that a wizard lives inside. It stands on a pillar of earth inside a massive crater.
 title: Where Have I Been?
 date: 2023-07-15
+tags:
+  - "lifeupdates"
 ---
 Hey, it's been a little over a month since the last blog post. I've been rather busy this past month and a half, and haven't had an opportunity to just sit down and write another blog post. Some of you may know this, but I lived in Florida most of my life, and being as it's currently going downhill at a rapid pace... well, now I'm kind of displaced. Some friends offered to put us up in their place for a while, which is kind of where I've been. I've got a job as a delivery driver for now, which has been helping a lot, but it's left me with very little energy when I get home.
 

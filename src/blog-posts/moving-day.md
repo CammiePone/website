@@ -3,6 +3,8 @@ img: /carousel/backpacks.webp
 alt: A Minecraft player wearing a red hiking backpack and a walking stick, standing on a hill.
 title: Moving Day!
 date: 2023-07-23
+tags:
+  - "lifeupdates"
 ---
 Hey again! I've finally moved into my own place over on the west coast, after 7 months of not having a home. It's really nice, I really like it here. I'm now living with two of my partners, even if we don't have a bed quite yet. That comes Tuesday!
 

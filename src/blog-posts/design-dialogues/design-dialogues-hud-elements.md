@@ -3,6 +3,8 @@ img: /images/hud_casting_spell.png
 alt: A Minecraft player casting a magical spell, with magical circles around the center of the screen.
 title: Design Dialogues - HUD Elements
 date: 2023-08-09
+tags: 
+  - designdialogues
 ---
 Today we're going to discuss something I've been studying for the past two years - UI design! Specifically, we're going to be discussing HUD elements. I'll save discussion of diegetic UI for another time. While I'm far from an expert, I do feel like I'm competent enough to share what I have learned to others looking to get into UI design for their games.
 

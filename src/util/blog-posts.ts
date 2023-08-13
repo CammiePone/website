@@ -18,7 +18,7 @@ export interface BlogPosts {
 }
 
 export function getBlogPosts(): BlogPosts {
-	const files = import.meta.glob("/src/blog-posts/*.md", {as:"raw", eager:true});
+	const files = import.meta.glob("/src/blog-posts/**/*.md", {as:"raw", eager:true});
 	let aaaaa = {};
 
 	for(const [filename, sauce] of Object.entries(files)) {
@@ -31,7 +31,7 @@ export function getBlogPosts(): BlogPosts {
 			frontmatter.date = new Date(frontmatter.date);
 		}
 
-		aaaaa[filename.substring("/src/blog-posts/".length, filename.length - 3)] = { frontmatter, html };
+		aaaaa[filename.substring(filename.lastIndexOf('/') + 1, filename.length - 3)] = { frontmatter, html };
 	}
 
 	return aaaaa;

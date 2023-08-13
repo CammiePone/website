@@ -3,6 +3,9 @@ img: /images/discovery_and_hubble.jpg
 alt: A LEGO model of the Discovery Space Shuttle deploying a LEGO model of the Hubble Space Telescope.
 title: LEGO!
 date: 2023-07-31
+tags:
+  - "travels"
+  - "funstuff"
 ---
 Hi everyone! My partners and I took a daytrip out to Seattle to meet up a friend over the weekend, and we went to a few stores while we were in the area - one of which was the LEGO store! I've never been in one before, so I was super excited and looking at LEGO sets since I knew I wanted to at least get one.
 
