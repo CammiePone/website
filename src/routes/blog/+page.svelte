@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { onMount } from "svelte";
 	import BlogCard from "../../components/BlogCard.svelte";
     import MonthSnip from "../../components/MonthSnip.svelte";
     import UnderConstruction from "../../components/UnderConstruction.svelte";
@@ -6,6 +7,7 @@
 	import { Button, Dropdown, DropdownItem, Toggle } from 'flowbite-svelte';
 	import { Icon } from 'flowbite-svelte-icons';
 	import { writable } from "svelte/store";
+	import { page } from "$app/stores";
 
 	export let data: PageData;
 	const filters = writable(new Set<string>());
@@ -33,15 +35,50 @@
 	function toggleFilter(filter: string) {
 		return _e => {
 			filters.update(set => {
+				let urlParams = $page.url.searchParams;
+
 				if(set.has(filter))
 					set.delete(filter);
 				else
 					set.add(filter);
 
+				if(set.size > 0)
+					urlParams.set("filters", setToString(set));
+				else
+					urlParams.delete("filters");
+
+				window.history.replaceState({}, document.title, `?${$page.url.searchParams.toString()}`);
+
 				return set;
 			});
 		};
 	}
+
+	function setToString(set: Set<string>): string {
+		let str = "";
+
+		for(var thing of set) {
+			if(!str)
+				str += thing;
+			else
+				str += "," + thing;
+		}
+
+		return str;
+	}
+
+	function stringToSet(str: string): Set<string> {
+		return new Set<string>(str.split(","));
+	}
+
+	onMount(() => {
+		const urlParams = $page.url.searchParams;
+
+		for(const [key, value] of urlParams) {
+			if(key === "filters")
+				filters.update(() => stringToSet(value));
+		}
+	});
 </script>
 
 <svelte:head>
@@ -84,7 +121,7 @@
 				<MonthSnip date={date}>
 					{#each posts as { slug, frontmatter, html }}
 						{#if matchesFilters([{ slug, frontmatter, html }])}
-							<BlogCard link="/blog/{slug}" img={frontmatter.img} title={frontmatter.title} html={html} />
+							<BlogCard link="/blog/{slug}" img={frontmatter.img} title={frontmatter.title} tags={frontmatter.tags} html={html} />
 						{/if}
 					{/each}	
 				</MonthSnip>

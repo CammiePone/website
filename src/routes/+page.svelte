@@ -46,22 +46,21 @@
 	</div>
 	<div class="hero-text text-center absolute top-1/2 left-1/2 z-10 w-full">
 		<h1 class="md:text-5xl text-4xl">Hello, I'm Cammie!</h1>
-		<p class="md:text-sm">Fae / Faer</p>
 		<p class="md:text-2xl text-lg mt-4">Indie Game Designer & Developer</p>
 	</div>
 </div>
 
 <div class="text-darktext md:text-justify text-xl">
 	<AboutSnip img="/about/wizard_hat.webp">
-		<p>I've been working as an indie game designer and developer since September 2017. I got my start by learning Java and making mods for <em>Minecraft: Java Edition</em>.</p>
-		<p>Since then, I've branched out to making my own demos in different game engines, including Godot, Unity3D, and Unreal Engine 4. I've picked up several other programming languages, including C#, JavaScript, TypeScript, C++, Python, Rust, and more!</p>
+		<p>I've been in the field as an indie game designer/developer since early September 2017. I got my start with making modifications for <em>Minecraft: Java Edition</em>, many of which became really popular!</p>
+		<p>For me, video games aren't just mere entertainment. They're the ultimate story-telling medium, able to get the player to really <em>feel</em> for these characters we create in a way movies and books can't.</p>
 	</AboutSnip>
 	<AboutSnip img="/about/end_fable_logo.webp">
-		<p>Ultimately, game design is what I'm most passionate about. I picked up programming as a means to bring my designs to life, and my design skills are what I'm most proud of. I've honed them to near-perfection over the years, and I'm more than happy to test them against unfamiliar circumstances!</p>
-		<p>As of March 2023, I've finally taken the huge step to start development on my first full game, alongside my partner!</p>
+		<p>In early March 2023, I started making my first full fledged game with the help of my partner, Upcraft. It's going to be a casual adventure game inspired by <em>Rune Factory 3: A Fantasy Harvest Moon</em>, <em>Pokémon Legends: Arceus</em>, and a few other games - old and new alike!</p>
+		<p>You can check out the game on <a href="https://bsky.app/profile/end-fable.com" class="underline text-secondary" target="_blank" rel="noopener noreferrer">Bluesky</a> or <a href="https://twitter.com/EndFable" class="underline text-secondary" target="_blank" rel="noopener noreferrer">Twitter</a> to see some of the concept art we've released.</p>
 	</AboutSnip>
 	<AboutSnip img="/about/space_helmet.webp">
-		<p>I hold myself to very high standards, and know that my work benefits from that immensely. Any project I set my sights on gets that same quality treatment, regardless of if it's my own creation or one I was hired to work on.</p>
-		<p>Despite my humble beginnings, my ambitions are aimed at the stars and my abilities can carry them there!</p>
+		<p>On a more serious note, my work is always going to be a love letter to those that came before me. The people who are responsible for creating some of my best memories growing up.</p>
+		<p>I may never make the "perfect" game - no one can - but I will always put my heart and soul into the games I work on. If I can do that, maybe I'll help inspire the next generation of game developers.</p>
 	</AboutSnip>
 </div>
