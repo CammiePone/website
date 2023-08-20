@@ -52,12 +52,12 @@
 
 <div class="text-darktext md:text-justify text-xl">
 	<AboutSnip img="/about/wizard_hat.webp">
-		<p>I've been in the field as an indie game designer/developer since early September 2017. I got my start with making modifications for <em>Minecraft: Java Edition</em>, many of which became really popular!</p>
-		<p>For me, video games aren't just mere entertainment. They're the ultimate story-telling medium, able to get the player to really <em>feel</em> for these characters we create in a way movies and books can't.</p>
+		<p>I've been in the field as an indie game designer/developer since early September 2017. I got my start with making mods for <em>Minecraft: Java Edition</em>, with my most popular in the top 1% of all time!</p>
+		<p>For me, video games aren't just entertainment. They're the ultimate story-telling medium, able to make players really <em>feel</em> for these characters we create in a way movies and books can't.</p>
 	</AboutSnip>
 	<AboutSnip img="/about/end_fable_logo.webp">
 		<p>In early March 2023, I started making my first full fledged game with the help of my partner, Upcraft. It's going to be a casual adventure game inspired by <em>Rune Factory 3: A Fantasy Harvest Moon</em>, <em>Pokémon Legends: Arceus</em>, and a few other games - old and new alike!</p>
-		<p>You can check out the game on <a href="https://bsky.app/profile/end-fable.com" class="underline text-secondary" target="_blank" rel="noopener noreferrer">Bluesky</a> or <a href="https://twitter.com/EndFable" class="underline text-secondary" target="_blank" rel="noopener noreferrer">Twitter</a> to see some of the concept art we've released.</p>
+		<p>You can check out the <a href="https://bsky.app/profile/end-fable.com" class="underline text-secondary" target="_blank" rel="noopener noreferrer">Bluesky</a> or <a href="https://twitter.com/EndFable" class="underline text-secondary" target="_blank" rel="noopener noreferrer">Twitter</a> accounts for the game to learn more about it.</p>
 	</AboutSnip>
 	<AboutSnip img="/about/space_helmet.webp">
 		<p>On a more serious note, my work is always going to be a love letter to those that came before me. The people who are responsible for creating some of my best memories growing up.</p>
