@@ -25,7 +25,7 @@ export function getBlogPosts(): BlogPosts {
 		const ast = Markdoc.parse(sauce);
 		const content = Markdoc.transform(ast);
 		const frontmatter = ast.attributes.frontmatter ? yaml.load(ast.attributes.frontmatter) : {};
-		const html = Markdoc.renderers.html(content).replace("<article>", "<article class='space-y-4'>").replace("<img", "<img class='mx-auto'");
+		const html = Markdoc.renderers.html(content).replace("<article>", "<article class='space-y-4'>").replaceAll("<img", "<img class='mx-auto'");
 
 		if(frontmatter.date) {
 			frontmatter.date = new Date(frontmatter.date);

@@ -95,9 +95,9 @@
 			<DropdownItem class="rounded p-2 hover:bg-darktext">
 				<Toggle class="rounded p-2 text-main focus:ring-none" on:click={toggleFilter("designdialogues")} checked={$filters.has("designdialogues")}>Design Dialogues</Toggle>
 			</DropdownItem>
-			<!-- <DropdownItem class="rounded p-2 hover:bg-darktext">
+			<DropdownItem class="rounded p-2 hover:bg-darktext">
 				<Toggle class="rounded p-2 text-main focus:ring-0" on:change={toggleFilter("devlogs")} checked={$filters.has("devlogs")}>Dev Logs</Toggle>
-			</DropdownItem> -->
+			</DropdownItem>
 			<DropdownItem class="rounded p-2 hover:bg-darktext">
 				<Toggle class="rounded p-2 text-main focus:ring-none" on:change={toggleFilter("lifeupdates")} checked={$filters.has("lifeupdates")}>Life Updates</Toggle>
 			</DropdownItem>
